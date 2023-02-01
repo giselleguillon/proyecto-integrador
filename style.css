@@ -63,6 +63,14 @@
     height: 850px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 
 .container-button{
     width: 100%;
@@ -75,13 +83,13 @@
 
 
 .button{
-    width: 100px;
+    width: 120px;
     height: 40px;
     background-color: rgb(133, 93, 19);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 0 30px;
     padding: 20px 100px;
     border: 20px;
     border-radius: 10px;
@@ -90,5 +98,21 @@
 
 
 #botonp{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+
+
+.container-form{
+    background-color: rgb(133, 93, 19);
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    border-radius: 20px;
+    
+}
+
+.container-form p{
+    color: white;
 }
