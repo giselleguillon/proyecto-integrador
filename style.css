@@ -298,6 +298,7 @@ main{
 }
 
 
+
 #contacto{
     width: 100%;
     height: auto;
@@ -310,6 +311,8 @@ main{
     height: auto;
     display: flex;
     justify-content: space-around;
+
+   
 
 }
 
@@ -325,26 +328,31 @@ main{
     height: 100px;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .contacto__info-form{
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: start;
-    
-}
-
-.form{
-    
+    width: 500px;
+    height: 500px;
     margin: 10px;
 }
 
+.titulo_form{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
 .contacto__redes{
     width: 100%;
     height: auto;
