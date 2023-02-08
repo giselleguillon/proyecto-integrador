@@ -22,7 +22,7 @@
                     <li><a href="#galeria"class="lista__link">Galeria</a></li>
                     <li><a href="#servicios"class="lista__link">Servicios</a></li>
                     <li><a href="#sobrenosotros"class="lista__link">Sobre nosotros</a></li>
-                    <li><a href="reserva.html"class="lista__link">Reservas</a></li>
+                    <li><a href="#contacto"class="lista__link">Contacto</a></li>
                 </ul>
             </div>
             
@@ -42,7 +42,9 @@
             
             
                 <div class="container-form">
-                <label for="fecha"><p>Fecha de llegada</p></label>
+                <form action="">
+                    <div class="container-form">
+                    <label for="fecha"><p>Fecha de llegada</p></label>
                 <input type="date" id="fecha"value="2018-07-22"
                 min="2023-01-01" max="2024-12-31">
                 <label for="fecha"><p>Fecha de salida</p></label>
@@ -56,6 +58,8 @@
                     <option value="suite">Suite</option>
                     <option value="">Presidencial</option>
                 <input type="submit" value="buscar">  
+            </form>
+        </div>
                 </div>
 
                 </div>
@@ -123,6 +127,50 @@
            <section id="sobrenosotros">
             <div class="sobrenosotros__h2"><h2>Sobre nosotros</h2></div>
             <div class="sobrenosotros__p"><p>Villa paraíso es un hotel 5 estrellas all inclusive, contamos con más de 15 años de experiencia en servicio al público. Nuestro hotel es uno de los mejores que se pueden encontrar en Punta Cana, contamos con dos piscinas exteriores con vista al mar y una interna climatizada, Nuestros restaurantes estan dirigidos por los mejores chef y cocineros especializados en comida internacional.  </p></div>
+           </section>
+
+
+
+
+           <section id="contacto">
+            <div class="titulo"><h2>Contacto</h2></div>
+            <div class="contacto__info">
+                
+                <div class="contacto__info-form">
+                    <div class="titulo_form"><h3>Envianos tu consulta:</h3></div><br>
+                    <form action="x">
+                        <div class="form"><label for="nombre">Nombre:</label>
+                        <input class="form"ut type="text" id="nombre" required></div>
+ 
+                        <div class="form"><label for="mail">Mail:</label>
+                        <input class="form"ut type="email" id="mail"required></div>
+                        <div class="form"><label for="consulta">Consulta:</label>
+                        <textarea name="consulta" id="consulta" cols="" rows=""></textarea></div>
+                        <button>Enviar</button>
+                    </form>
+                    
+                </div>
+                <div class="contacto__info-mapa">
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                        var setting = {"height":300,"width":400,"zoom":17,"queryString":"Paseo de los Fundadores, Punta Cana, República Dominicana","place_id":"EjpQYXNlbyBkZSBsb3MgRnVuZGFkb3JlcywgUHVudGEgQ2FuYSwgUmVww7pibGljYSBEb21pbmljYW5hIi4qLAoUChIJ40MJEB2SqI4RyFqsa2fUPIESFAoSCXf-y11kkaiOEfP2Eu36HIhh","satellite":false,"centerCoord":[18.553749005330044,-68.3473971],"cid":"0x813cd4676bac5ac8","lang":"es","cityUrl":"/dominican-republic/punta-cana-18155","cityAnchorText":"Mapa de Punta Cana, Punta Cana Beaches, República Dominicana","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"875909"};
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=875909';
+                        s.async = true;
+                        s.onload = function (e) {
+                          window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                      })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div> 
+                </div>
+            </div>
+            <div class="contacto__redes">
+                <div class="redes"><img src="./imagenes/icono1.png" alt="redes" class="redes_img"><div class="redes_p"><p>Seguinos en tik tok: hotelparaiso88</p></div></div>
+                <div class="redes"><img src="./imagenes/icono2.png" alt="redes" class="redes_img"><div class="redes_p"><p>hotelparaísoinfo@gmail.com <br>  hotelparaísoreservas@gmail.com</p></div></div>
+                <div class="redes"><img src="./imagenes/icono3.png" alt="redes" class="redes_img"><div class="redes_p"><p>1515155555 <br>1665852222</p></div></div>
+            </div>
            </section>
         </main> 
     </header>
