@@ -1,3 +1,8 @@
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -35,8 +40,8 @@
 }
 
 .lista__link{
-    color: rgb(7, 48, 83);
-    color: white ;
+    
+    color: white;
     font-size: 20px;
 
     
@@ -202,12 +207,12 @@ h2{
 }
 
 
-/* section servivios */
+/* section servicios */
 
 
 .servicios__container{
     width: 100%;
-    height: auto;
+    height: 300px;
     display: flex;
     justify-content: center;
 
@@ -236,17 +241,26 @@ h2{
 .servicios{
     width: 300px;
     height: 300px;
-    padding: 20px 20PX;
+    padding: 10px ;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
     align-items: center;
-    text-align: center;
 }
 
 .servicios__p{
-  font-size: 20PX;
+   width: 200px;
+   height: 100px;
+   margin-top: 10px;
+  font-size: 20px;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
 }
 
 
