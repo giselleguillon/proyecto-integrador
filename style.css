@@ -96,14 +96,10 @@ main{
     
     width: 100%;
     height: 850px;
-}
-
-.container{
     display: flex;
     flex-direction: column;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    justify-content: start;
+    align-items: center;
 }
 
 
@@ -146,6 +142,7 @@ main{
     align-items:center ;
     border-radius: 20px;
     
+    
 }
 
 .container-form p{
@@ -173,7 +170,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    align-content: center;
 }
 
 
@@ -296,7 +293,7 @@ h2{
  .sobrenosotros__p{
     width: 100%;
     height: auto;
-    margin: 50px 50px;
+    margin: 50px 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +305,7 @@ h2{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 30px 200px;
+    margin: 5% 10%;
     font-size: 25px;
     font-weight: 400;
 
@@ -546,8 +543,89 @@ background-color: var(--azuloscuro);
 /* maximo 1200px */
   
 
-@media (max-width: 992px) {
-    main{
-        background-color: aliceblue;
+@media (max-width: 1500px) {
+  
+    
+    .fotos img{
+        
+        height: 250px;
+        width:  250px;
     }
+    
+    }
+
+@media (max-width: 1300px) {
+    .fotos img{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+
+@media (max-width: 1020px) {
+    .container-form{
+        width: 90%;
+        height: 80px;
+        
+        
+    }
+       
+ 
+      .galeria{
+        height: 1800px;
+         width: 100%;
+        padding: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .galeriafotos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .fotos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .fotos img{
+        width: 300px;
+        height: 300px;
+      }
+
+
+      .servicios__img{
+        width: 50px;
+        height: 50px;
+      }
+
+      .servicios__p{
+        width: 200px;
+        height: 100px;
+        margin-top: 10px;
+       font-size: 15px;
+       font-weight: 300;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+      }
+
+        .servicios{
+            padding: 0px ;
+        }
+    
+
+    
+
+
+
+
+
 }
