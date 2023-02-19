@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="(max-width: 800px)" href="style.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hotel Villa paraíso</title>
 </head>
 
@@ -23,7 +23,7 @@
             </div>
 
 
-            <div class="nav__links">
+            <div class="navlinks">
                 <ul class="nav__lista">
                     <li><a href="index.html" class="lista__link">Inicio</a></li>
                     <li><a href="#galeria" class="lista__link">Galeria</a></li>
@@ -31,6 +31,25 @@
                     <li><a href="#sobrenosotros" class="lista__link">Sobre nosotros</a></li>
                     <li><a href="#contacto" class="lista__link">Contacto</a></li>
                 </ul>
+            </div>
+
+            <div class="menu">
+                <label for="menu-toggle" class="label" >
+                    <i class="fas fa-bars"></i>
+                </label>
+                                
+                 <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                 <ul class="menu-toggle-lista">
+                    <li><a href="index.html" class="lista__link">Inicio</a></li>
+                    <li><a href="#galeria" class="lista__link">Galeria</a></li>
+                    <li><a href="#servicios" class="lista__link">Servicios</a></li>
+                    <li><a href="#sobrenosotros" class="lista__link">Sobre nosotros</a></li>
+                    <li><a href="#contacto" class="lista__link">Contacto</a></li>
+                 </ul>
+                
+                
+                
+
             </div>
 
 
@@ -42,7 +61,7 @@
 
             <div class="container">
 
-                <di class="container-button">
+                <div class="container-button">
                     <div class="button"><a href="registro.html">
                             <p id="botonp">registrarse</p>
                         </a></div>
@@ -169,10 +188,6 @@
                     <p class="servicios__p">Gimnasio</p>
                 </div>
 
-                <div class="servicios"><img src="./imagenes/servicio5.png" alt="servicios" class="servicios__img">
-                    <p class="servicios__p">WIFI libre</p>
-                </div>
-
             </div>
         </section>
 
@@ -218,7 +233,7 @@
                             <input class="form" ut type="email" id="mail" required>
                         </div>
                         <div class="form"><label for="consulta">Consulta:</label>
-                            <textarea name="consulta" id="consulta" cols="" rows=""></textarea>
+                            <textarea name="consulta" id="consulta" cols="30" rows="5"></textarea>
                         </div>
                         <div class="boton"><button>Enviar</button></div>
                     </form>
@@ -228,7 +243,7 @@
                     <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
                         <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
                         <script>(function () {
-                                var setting = { "height": 300, "width": 400, "zoom": 17, "queryString": "Paseo de los Fundadores, Punta Cana, República Dominicana", "place_id": "EjpQYXNlbyBkZSBsb3MgRnVuZGFkb3JlcywgUHVudGEgQ2FuYSwgUmVww7pibGljYSBEb21pbmljYW5hIi4qLAoUChIJ40MJEB2SqI4RyFqsa2fUPIESFAoSCXf-y11kkaiOEfP2Eu36HIhh", "satellite": false, "centerCoord": [18.553749005330044, -68.3473971], "cid": "0x813cd4676bac5ac8", "lang": "es", "cityUrl": "/dominican-republic/punta-cana-18155", "cityAnchorText": "Mapa de Punta Cana, Punta Cana Beaches, República Dominicana", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "875909" };
+                                var setting = {  "zoom": 17, "queryString": "Paseo de los Fundadores, Punta Cana, República Dominicana", "place_id": "EjpQYXNlbyBkZSBsb3MgRnVuZGFkb3JlcywgUHVudGEgQ2FuYSwgUmVww7pibGljYSBEb21pbmljYW5hIi4qLAoUChIJ40MJEB2SqI4RyFqsa2fUPIESFAoSCXf-y11kkaiOEfP2Eu36HIhh", "satellite": false, "centerCoord": [18.553749005330044, -68.3473971], "cid": "0x813cd4676bac5ac8", "lang": "es", "cityUrl": "/dominican-republic/punta-cana-18155", "cityAnchorText": "Mapa de Punta Cana, Punta Cana Beaches, República Dominicana", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "875909" };
                                 var d = document;
                                 var s = d.createElement('script');
                                 s.src = 'https://1map.com/js/script-for-user.js?embed_id=875909';
