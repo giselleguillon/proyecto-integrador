@@ -332,22 +332,19 @@ h2{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 200px;
    
 
 }
 
-.contacto__info-mapa{
-    width: 500px;
-    height: 500px;
-
-
-}
 .mapa{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+
+
 }
+
 
 .titulo{
     width: 100%;
@@ -405,6 +402,7 @@ background-color: var(--azuloscuro);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .redes_img{
@@ -782,21 +780,42 @@ background-color: var(--azuloscuro);
 
 
           @media (max-width: 500px) {
-            .contacto__info-mapa{
-                width: 100px;
-                height: 100px;
-            }
 
             .fotos img{
                 width: 200px;
                 height: 200px;
             }
 
-            .
+            .mapa{
+                width: 200px;
+                height: 200px;
+            }
         
             
+            .fotos{
+                width: 200px;
+                height: 200px;
+            }
+        
+        
+            }
             
-            
+           .nav__img{
+            width: 30px;
+            height: 30px;
+
+            }
+
+            .button{
+                width: 80px;
+                height: 30;
+                gap: 5px;
+            }
+
+            .container-button{
+                padding: 10px;
+            }
+
           }
 
 
