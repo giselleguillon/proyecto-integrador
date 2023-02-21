@@ -87,26 +87,25 @@
 main{
     background-color: var(--azulado) ;
     width: 100%;
-    padding: 0 5%;
     margin-top: 5%;
 }
 
 
 .portada{
-    
+
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url(./imagenes/portada.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
+    max-width: 100%;
     height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-   
-   
+
 }
+
 
 .container-button{
     width: 100%;
@@ -455,7 +454,7 @@ background-color: var(--azuloscuro);
 .registro h2{
     width: 100%;
     height: 50px;
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -510,6 +509,7 @@ background-color: var(--azuloscuro);
 .ingreso{
     width: 100%;
     height: 850px;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -782,13 +782,13 @@ background-color: var(--azuloscuro);
           @media (max-width: 500px) {
 
             .fotos img{
-                width: 200px;
-                height: 200px;
+                width: 150px;
+                height: 150px;
             }
 
             .mapa{
-                width: 200px;
-                height: 200px;
+                width: 150px;
+                height: 150px;
             }
         
             
@@ -816,6 +816,14 @@ background-color: var(--azuloscuro);
                 padding: 10px;
             }
 
+          }
+
+          @media (max-width: 350px) {
+            body{
+                width: auto;
+            }
+            
+            
           }
 
 
